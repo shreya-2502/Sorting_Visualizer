@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="p-3 mb-2 bg-info text-white">
+        <h1 id="heading">Sorting Visualizer</h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Bubble Sort</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Mergesort.html">Merge Sort</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="selectionsort.html">Selection Sort</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="insertionsort.html">Insertion Sort</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="quicksort.html">Quick Sort</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h2>Quick Sort</h2>
+      <div id="bars">
+
+        <div id="container">
+           
+        </div>
+    
+    </div>
+    <div id="Buttons">
+        <button type="button" class="btn btn-dark" onclick="init()">Set</button> 
+        <button type="button" class="btn btn-dark" onclick="play()">Visualize</button>
+    </div>
+    <script src="quicksort.js"></script>
+</body>
+</html>

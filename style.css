@@ -1,0 +1,44 @@
+#container {
+    height: 500px;
+    width: 520px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #e3e3e3;
+   
+  }
+  #bars{
+    margin-left:35%;;
+  }
+
+  #heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  h2{
+    margin-top: 20px;
+    text-align: center;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 254, 254);
+  }
+  .bar {
+    width: 50px;
+    background-color: rgb(20, 209, 238); /* Set the initial color to green */
+    margin: 2px;
+    transition: height 0.2s,
+    background-color 0.2s; /* Add transition property for smooth animation */
+  }  
+  .bar.sorted {
+    background-color: rgb(74, 217, 112); /* Change the color of sorted bars to blue */
+  }
+  #Buttons{
+   margin-top: 20px;
+   margin-left: 45%;
+
+  }
+  .bar.swapping {
+    background-color: orange; /* Highlight the swapping bars */
+  }
